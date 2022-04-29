@@ -48,7 +48,6 @@ a {
 .boxes {
     display: flex;
     justify-content: center;
-    width: 900px;
     gap: 20px;
     flex-wrap: wrap;
 }
