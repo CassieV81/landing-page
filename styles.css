@@ -16,8 +16,9 @@ body {
 
 .secondheader {
     display: flex;
-    gap: 150px;
+    gap: 50px;
     padding: 5px 0 10px 0;
+    flex-wrap: wrap;
 }
 .maing {
     width: 350px;
@@ -48,8 +49,8 @@ a {
     display: flex;
     justify-content: center;
     gap: 50px;
-}
     flex-wrap: wrap;
+}
 .info {
     display: flex;
     flex-direction: column;
@@ -62,34 +63,67 @@ a {
     font-size: 36px; 
     font-style: italic; 
     font-weight: lighter;
+    margin-bottom: 0;
 }
 .quoteb {
     background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.quotediv {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    justify-content: center;
+} 
+.quote {
+    text-align: justify;
 }
 .call {
     background-color: #3882f6;
-    color: #f9faf8; 
+    color: #f9faf8;
+    border-radius: 5px;
+    
+}
+.calldiv {
+    display: flex;
+    align-items: center;
+    width: 600px;
+    margin: 50px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    align-self: center;
+    gap: 100px;
+    
 }
 .footer {
     background-color: #1f2937;
     color: #e5e7eb;
     font-size: 18px;
+    text-align: center;
+
+}
+.footerdiv {
+    display:flex;
+    flex-direction: column;
 }
 button {
     background-color: #3882f6;
     border: 2px solid white;
     border-radius: 5px;
     color: #f9faf8;
+    padding: 8px;
 }
 .mainimg {
     border: 0;
-    background-color: #e5e7eb;
-    width: 350px;
+    width: 450px;
     margin: auto;
-    border-radius: 0;
+    border-radius: 10px;
 }
 img {
-    border: 2px solid #3882f6;
+    border: 2px solid #1f2937;
     width: 200px;
     height: 200px;
     border-radius: 10px;
