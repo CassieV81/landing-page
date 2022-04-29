@@ -1,1 +1,2 @@
 # landing-page
+After weeks of learning the foundations in The Odin Project, this is my attempt at creating a landing page. I will try to apply most of what I learnt and hopefully learn more in the process. I am not very creative so I will try to recreat the exact copy of the sample that was provided. 
