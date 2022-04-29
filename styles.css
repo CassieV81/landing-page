@@ -3,15 +3,31 @@
 .firstheader {
     background-color: #1f2937;
     display: flex;
+    padding: 0px 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.secondheader {
+    display: flex;
+    gap: 150px;
+    padding: 5px 0 10px 0;
+}
+.maing {
+    width: 350px;
+    margin: auto;
 }
 h1 {
     font-size: 48px;
     font-weight: 800;
     color: #f9faf8;
+    margin: auto;
 }
 ul {
     list-style: none;
-    font-size: 18px;    
+    font-size: 18px;  
+    display: flex;
+    gap: 20px;  
 }
 a {
     text-decoration: none;
@@ -61,13 +77,13 @@ button {
 .mainimg {
     border: 0;
     background-color: #e5e7eb;
-    width: 300px;
-    height: 150px;
+    width: 350px;
+    margin: auto;
     border-radius: 0;
 }
 img {
     border: 2px solid #3882f6;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border-radius: 10px;
 }
