@@ -49,6 +49,7 @@ a {
     justify-content: center;
     gap: 50px;
 }
+    flex-wrap: wrap;
 .info {
     display: flex;
     flex-direction: column;
